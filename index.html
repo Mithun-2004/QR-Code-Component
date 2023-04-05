@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="favicon-32x32.png">
+</head>
+<style>
+    *{
+        margin : 0;
+        padding : 0;
+        box-sizing : border-box;
+    }
+    html{
+        font-family : Montserrat,Sans-serif;
+    }
+    section{
+        background-color : hsl(212, 45%, 89%);
+        height : 100vh;
+        width : 100%;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+    }
+    .content{
+        background-color : hsl(0, 0%, 100%);
+        padding : 5px;
+        border-radius : 10px;
+        width : fit-content;
+    }
+    .content img{
+        height : 250px;
+        width : 250px;
+        display : block;
+        border-radius : 10px;
+        margin : auto;
+        margin-top : 8px;
+    }
+    p{
+        width : 250px;
+        text-align : center;
+        padding :  5px;
+        line-height : 1.5;
+    }
+    .line1{
+        margin : 5px;
+        font-weight : bold;
+        font-size : 17px;
+    }
+    .line2{
+        margin : 10px;
+        font-size : 12px;
+        font-weight : 400;
+    }
+</style>
+<body>
+    <section>
+        <div class="content">
+            <img src="image-qr-code.png" alt="QR-Code">
+            <p class="line1">Improve your front-end skills by building projects</p>
+            <p class="line2">Scan the QR code to visit Frontend Mentor 
+                and take your coding skills to the next level</p>
+        </div>
+    </section>
+    
+</body>
+</html>
